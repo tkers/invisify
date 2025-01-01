@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+      input[type='checkbox'] {
+        display: none;
+      }
+      label span {
+        color: transparent;
+        background-color: #ccc;
+      }
+      label:hover span {
+        background-color: #ddd;
+      }
+      label :checked + span {
+        color: #000000;
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <main>{{clues}}</main>
+  </body>
+</html>

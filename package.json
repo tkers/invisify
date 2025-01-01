@@ -1,0 +1,16 @@
+{
+  "name": "invisify",
+  "version": "1.0.0",
+  "description": "A simple InvisiClues generator",
+  "main": "invisify.js",
+  "repository": "git@github.com:tkers/invisify.js.git",
+  "author": "Tijn Kersjes <tijn@divbyzero.nl>",
+  "bin": "bin/invisify",
+  "scripts": {
+    "example": "node invisify example/clues.md example/template.html docs/index.html"
+  },
+  "dependencies": {
+    "marked": "^15.0.4",
+    "marked-smartypants": "^1.1.9"
+  }
+}
